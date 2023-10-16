@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+
+  background-color: rgb(152, 231, 152);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(152, 210, 152, 100);
+}
+
+.left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.header-nav {
+  font-size: 16px;
+  background-color: rgb(152, 231, 152);
+  border: none;
+}
+
+.header-nav:hover {
+  cursor: pointer;
+}
