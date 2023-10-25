@@ -1,0 +1,45 @@
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  font-family: Roboto, 'Arial';
+}
+
+.left-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.name {
+  font-size: 30px; 
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  margin: 5px 0 5px 0;
+}
+
+.icon {
+  height: 60px;
+}
+
+.mail-icon {
+  height: 40px;
+}
+
+.right-side {
+  display: flex;
+  flex: 3;
+}
+
+.background {
+  width: 100%;
+}

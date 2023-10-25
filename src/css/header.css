@@ -8,7 +8,7 @@
   right: 0;
   height: 100px;
 
-  background-color: rgb(152, 231, 152);
+  background-color: rgb(170, 233, 170);
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: rgba(152, 210, 152, 100);
@@ -22,12 +22,18 @@
   margin-left: 50px;
 }
 
-.header-nav {
-  font-size: 16px;
-  background-color: rgb(152, 231, 152);
+.header-button {
+  font-size: 18px;
+  font-family: Roboto, 'Arial';
+  background-color: rgb(170, 233, 170);
   border: none;
+  margin: 0 5px 0 5px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  transition: background-color 0.5s;
 }
 
-.header-nav:hover {
+.header-button:hover {
   cursor: pointer;
+  background-color: rgb(153, 209, 153);
 }
