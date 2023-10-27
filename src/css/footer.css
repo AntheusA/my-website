@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+
+  background-color: rgb(170, 233, 170);
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  font-family: Roboto, 'Arial';
+}
